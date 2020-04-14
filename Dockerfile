@@ -3,7 +3,7 @@ FROM node:8
 COPY . .
 
 RUN npm install \
-    && npn run build 
+    && npm run build 
 
 EXPOSE 3000
 
